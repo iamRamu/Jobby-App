@@ -1,0 +1,37 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(237, 207, 207, 0.126);
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    position: sticky;
+    width: 98%;
+    /* top: 0; */
+    height: 8vh;
+    z-index: 1;
+}
+.nav-sub-container{
+    display: flex;
+}
+h4{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header-jobby-logo{
+    width: 90px;
+}
+.logout-button{
+    background-color: rgba(14, 84, 205, 0.959);
+    color: #ffffff;
+    font-family: Roboto;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.logout-button:focus{
+    outline: none;
+}

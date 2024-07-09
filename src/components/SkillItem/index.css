@@ -1,0 +1,19 @@
+.skillItem-bg-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 33%;
+    /* border: solid green; */
+    margin-bottom: 50px ;
+}
+.skillItem-skill-logo{
+    object-fit: contain;
+    height: 70px;
+    width: 70px;
+    margin-right: 8px;
+}
+.skill-name{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 200;
+}
